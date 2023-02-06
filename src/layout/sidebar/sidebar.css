@@ -1,0 +1,48 @@
+/* Custom styling on Sidebar */
+
+#sidebar-menu .sidebar-main-title {
+  display: none !important;
+}
+
+/* ---------- */
+
+.sidebar-submenu li a::after {
+  display: none;
+}
+
+.sidebar-submenu li a:hover {
+  background-color: #60b5ff4a;
+  border-radius: 12px;
+}
+
+.sidebar-submenu li a.active {
+  /* background-color: #72baf9 !important; */
+  background-color: var(--theme-deafult) !important;
+  border-radius: 12px;
+  color: #ffffff !important;
+}
+.sidebar-submenu li a.active svg {
+  /* color:  var(--theme-deafult) !important; */
+  stroke: #ffffff !important;
+  color: var(--theme-deafult) !important;
+}
+
+.sidebar-links .sidebar-list .included {
+  /* background-color: var(--theme-deafult); */
+  background-color: transparent;
+  border: 2px solid var(--theme-deafult) !important;
+  color: #fff !important;
+}
+.sidebar-links .sidebar-list .included span {
+  color: #fff !important;
+}
+.sidebar-links .sidebar-list .included svg {
+  stroke: #fff !important;
+  /* color:  var(--theme-deafult) !important; */
+  color: transparent;
+}
+
+.sidebar-links .sidebar-list .sidebar_menu_active {
+  display: block !important;
+  transition: opacity 500ms ease-in 0s;
+}
