@@ -1,0 +1,169 @@
+.supl_cart__top {
+  padding: 8px;
+  display: flex;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  background-color: #f73164;
+}
+
+.supl_cart__top .supl_cart__top_a {
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: 20%;
+}
+
+.supl_cart__top .supl_cart__top_a button {
+  background-color: white !important;
+  color: #f73164;
+  transition: 0.25s;
+}
+
+.supl_cart__top .supl_cart__top_a button:hover {
+  background-color: #f36292 !important;
+  /* background-color: #0275d8 !important; */
+  color: white;
+  border-color: white !important;
+}
+
+.cust_delivery__company__card .accordion {
+  border-top: 1px solid rgb(194, 193, 193);
+  border-left: 1px solid rgb(194, 193, 193);
+  border-right: 1px solid rgb(194, 193, 193);
+  position: relative;
+}
+
+.cust_delivery__company__card .MuiTypography-root {
+  width: 100%;
+}
+.cust_delevery_company_details > * {
+  width: 100%;
+  display: flex;
+  color: white !important;
+}
+
+.cust_delevery_company_details .badge {
+  color: white;
+}
+
+.cust_delevery_company_details .col_left {
+  width: 60%;
+}
+.cust_delevery_company_details .col_right {
+  width: 40%;
+}
+
+.cust_delevery_company_details .total {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cust_delevery_company_details .total span {
+  margin-left: 5px;
+}
+.cust_delevery_company_details .total span:after {
+  content: "€";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.cust_delevery_supplier_details .card_div {
+  box-shadow: 2px 2px 3px gray, -1px -1px 2px gray;
+  border-radius: 6px;
+  margin-bottom: 0 !important;
+}
+.cust_delevery_supplier_details .card_div .card-body {
+  padding: 10px !important;
+}
+.cust_delevery_supplier_details .MuiTypography-root {
+  width: 100%;
+}
+
+.cust_delivery__company__card__AccordionSummary {
+  background-color: #f73164 !important;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  border: 1px solid #f73164 !important;
+}
+
+.cust_delevery_supplier_details .header {
+  display: flex;
+  border-bottom: 1px solid rgb(165, 164, 164);
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 6px;
+  background-color: #f73164 !important;
+}
+.cust_delevery_supplier_details .header h5:nth-child(1) {
+  width: 60%;
+}
+.cust_delevery_supplier_details .header h5:nth-child(2) {
+  width: 40%;
+}
+.cust_delevery_supplier_details .header h5 {
+  color: white;
+}
+.cust_delevery_supplier_details .header h5 span {
+  margin-left: 5px;
+}
+.cust_delevery_supplier_details .header .total span:after {
+  content: "€";
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.action_cancel_outlined {
+  color: #f73164;
+  transition: 0.25s;
+}
+
+.action_cancel_outlined:hover {
+  /* color: #F36292; */
+  color: #0275d8;
+}
+
+.cust_delevery_supplier_details_table {
+  margin-bottom: 0 !important;
+  margin-top: 10px;
+}
+.cust_delevery_supplier_details_table .modify_button_wrapped {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-top: 30px;
+}
+
+.cust_delevery_supplier_details_table .modify_button_wrapped .card-body {
+  padding: 0 !important;
+}
+
+.confirm__button__wrapped__footer {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+}
+.confirm__button__wrapped {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .cust_delevery_company_details {
+    display: block;
+  }
+  .cust_delevery_company_details .col_left {
+    width: 100%;
+  }
+  .cust_delevery_company_details .col_right {
+    width: 100%;
+  }
+  .cust_delevery_supplier_details .header {
+    display: block;
+  }
+  .cust_delevery_supplier_details .header h5:nth-child(1) {
+    width: 100%;
+  }
+  .cust_delevery_supplier_details .header h5:nth-child(2) {
+    width: 100%;
+  }
+}

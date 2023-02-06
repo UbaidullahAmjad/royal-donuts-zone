@@ -1,0 +1,65 @@
+#basket {
+  font-size: 30px !important;
+}
+
+.rectify_quantity__box {
+  display: flex;
+}
+.rectify_quantity__box p {
+  margin-right: 4px;
+  margin-top: 8px;
+  margin-bottom: 0;
+}
+.rectify_quantity__box .quantity__button {
+  border-radius: 0;
+  outline: none;
+  margin-top: 7px;
+}
+
+.rectify_qty_text{
+  margin-left: 10px;
+  margin-right: 10px !important;
+  margin-top: 0px !important;
+  font-size: 24px;
+
+  -webkit-user-select: none; /* Safari */        
+  -moz-user-select: none; /* Firefox */
+  -ms-user-select: none; /* IE10+/Edge */
+  user-select: none; /* Standard */
+}
+
+.rectify_quantity__box input {
+  border-radius: 0;
+  width: 65px;
+  text-align: center;
+  outline: none;
+}
+
+.min__qty__box__wrapped {
+  overflow: hidden;
+}
+
+.min__qty__box {
+  transform: translateY(-110px);
+  transition: 0.35s all;
+}
+
+.min__qty__box_hide {
+  /* transform: translateY(-110%); */
+}
+
+.min__qty__box_show {
+  transform: translateY(0) !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
