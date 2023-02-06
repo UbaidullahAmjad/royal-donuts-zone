@@ -1,0 +1,79 @@
+export const ADD_ITEMS = "ADD_ITEMS";
+export const REMOVE_ITEMS = "REMOVE_ITEMS";
+export const UPDATE_ITEM = "UPATE_ITEM";
+export const INITIAL_STATE = "INITIAL_STATE";
+export const FILTER_STATE = "FILTER_STATE";
+export const GET_TESTIMONIALS = "GET_TESTIMONIALS";
+export const TOKEN_SET = "TOKEN_SET";
+export const TOKEN_EXPIRY_TIME = "TOKEN_EXPIRY_TIME";
+
+export const STORELIST = "STORELIST";
+export const MAP_STORES = "MAP_STORES";
+export const GET_SPECIFIC_STORE = "GET_SPECIFIC_STORE";
+export const SINGLE_STORE = "SINGLE_STORE";
+export const GUEST_SUMMARY = "GUEST_SUMMARY";
+export const GET_COUPON = "GET_COUPON";
+export const LOADING = "LOADING";
+export const APPLY_COUPON = "APPLY_COUPON";
+export const DISCOUNT_SET = "DISCOUNT_SET";
+export const CLOSE_NOTIFICATION = "CLOSE_NOTIFICATION";
+export const HANDLE_VALUES = "HANDLE_VALUES";
+export const HANDLE_CHECKED = "HANDLE_CHECKED";
+export const SET_DELIVERY_METHOD = "SET_DELIVERY_METHOD";
+
+export const GET_CATEGORIES = "GET_CATEGORIES";
+export const GET_PRODUCT_LIST = "GET_PRODUCT_LIST";
+export const GET_CATEGORIES_PRODUCTS = "GET_CATEGORIES_PRODUCTS";
+
+export const ADD_CART_ITEM = "ADD_CART_ITEM";
+export const INCREMENT_ITEM_QUANTITY = "INCREMENT_ITEM_QUANTITY";
+export const DECREMENT_ITEM_QUANTITY = "DECREMENT_ITEM_QUANTITY";
+export const REMOVE_CART_ITEM = "REMOVE_CART_ITEM";
+export const GET_ITEM_PRICE_WITH_QUANTITY = "GET_ITEM_PRICE_WITH_QUANTITY";
+export const GET_CART_GRAND_TOTAL = "GET_CART_GRAND_TOTAL";
+export const DELETE_TOTAL_CART = "DELETE_TOTAL_CART";
+
+export const CHECKOUT_FORM_DATA = "CHECKOUT_FORM_DATA";
+export const CHECKOUT_FORM_PUSHED_DATA = "CHECKOUT_FORM_PUSHED_DATA";
+export const CHECKOUT_FORM_SUBMIT = "CHECKOUT_FORM_SUBMIT";
+export const CHECKOUT_FORM_SUBMIT_FORMDATA = "CHECKOUT_FORM_SUBMIT_FORMDATA";
+export const CHECKOUT_FORM_USER_DATA = "CHECKOUT_FORM_USER_DATA";
+export const CHECKOUT_FORM_STORE_DATA = "CHECKOUT_FORM_STORE_DATA";
+export const CHECKOUT_FORM_USER_DATA_CLEAR = "CHECKOUT_FORM_USER_DATA_CLEAR";
+export const CHECKOUT_FORM_DATA_CLEAR = "CHECKOUT_FORM_DATA_CLEAR";
+
+export const CHECKOUT_FORM_SUBMITTED_DATA = "CHECKOUT_FORM_SUBMITTED_DATA";
+export const GET_SETTINGS = "GET_SETTINGS";
+export const CHECKOUT_GET_USER_DATA = "CHECKOUT_GET_USER_DATA";
+export const CHECKOUT_GET_USER_DATA_CLEAR = "CHECKOUT_GET_USER_DATA_CLEAR";
+
+
+export const CHECKOUT_GUEST_FORM_FILLED = "CHECKOUT_GUEST_FORM_FILLED";
+
+export const PAYPAL_GET_ECCOM_CART = "PAYPAL_GET_ECCOM_CART";
+export const PAYPAL_GO_TO_INVOICE = "PAYPAL_GO_TO_INVOICE";
+export const PAYPAL_INVOICE_DATA_CLEAR = "PAYPAL_INVOICE_DATA_CLEAR";
+
+export const STRIPE_GO_TO_INVOICE = "STRIPE_GO_TO_INVOICE";
+export const STRIPE_INVOICE_DATA_CLEAR = "STRIPE_INVOICE_DATA_CLEAR";
+export const STRIPE_EMAIL_CHECK = "STRIPE_EMAIL_CHECK";
+export const STRIPE_EMAIL_CHECK_CLEAR = "STRIPE_EMAIL_CHECK_CLEAR";
+
+// -------------------------------------
+
+export const EccomSEO_GET_DATA = "EccomSEO_GET_DATA";
+export const HomeImages_GET_DATA = "HomeImages_GET_DATA";
+export const HomeSpecialProducts_GET_DATA = "HomeSpecialProducts_GET_DATA";
+export const HomeStores_GET_DATA = "HomeStores_GET_DATA";
+export const Pages_GET_DATA = "Pages_GET_DATA";
+export const Dashboard_GET_DATA = "Dashboard_GET_DATA";
+export const Dashboard_SAVE_DATA = "Dashboard_SAVE_DATA";
+export const Dashboard_Save_BtnLoading = "Dashboard_Save_BtnLoading";
+export const Dashboard_LOGOUT = "Dashboard_LOGOUT";
+export const PageContent_LOAD_DATA = "PageContent_LOAD_DATA";
+export const PageContent_GET_DATA = "PagesContent_GET_DATA";
+export const PageContent_SEO_GET_DATA = "PagesContent_SEO_GET_DATA";
+export const ProductDetail_GET_DATA = "ProductDetail_GET_DATA";
+export const HomeSlide_GET_DATA = "HomeSlide_GET_DATA";
+
+

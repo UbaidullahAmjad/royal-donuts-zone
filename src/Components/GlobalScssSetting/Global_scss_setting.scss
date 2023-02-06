@@ -1,0 +1,125 @@
+$button_background_color: #f36292;
+$slider_btn_background_color: #f36292;
+
+$button_background_color_darken: hsl(
+  var(--button_background_color),
+  calc(var(--l) - 5%)
+);
+
+.MuiButton-containedPrimary {
+  background-color: var(--button_background_color) !important;
+
+  &:hover {
+    // background-color: rgb(var(--button_background_color)) !important;
+    // background-blend-mode: darken;
+    filter: saturate(150%);
+  }
+}
+
+.MuiButton-textPrimary {
+  background-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+
+  &:disabled {
+    filter: brightness(85%);
+  }
+}
+
+#imp_button {
+  background-color: var(--slider_btn_background_color) !important;
+  filter: brightness(85%) contrast(240%);
+  color: #fff;
+  &:hover {
+    filter: brightness(80%) contrast(250%);
+  }
+}
+
+.cart_btn {
+  background-color: var(--button_background_color) !important;
+  color: #fff;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+.cartpage_next_btn:disabled {
+  filter: brightness(85%);
+}
+
+.radius_search_button {
+  background-color: var(--button_background_color) !important;
+
+  border-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+.btn-primary {
+  background-color: var(--button_background_color) !important;
+
+  border-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+.btn-outline-primary {
+  background-color: var(--button_background_color) !important;
+
+  border-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+.btn-light {
+  color: var(--button_background_color) !important;
+}
+
+.checkout_paynow_btn:disabled {
+  filter: brightness(85%);
+}
+
+.MuiButton-root {
+  background-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+.buttonCustom {
+  background-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+.bottom_cart_btn {
+  background-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+#config_btn, #find_store {
+  background-color: var(--button_background_color) !important;
+  &:hover {
+    filter: saturate(150%);
+  }
+}
+
+.footer_social_icons .icon_box svg {
+  color: var(--button_background_color) !important;
+}
+
+#product_homepage .slick-slider .slick-dots li.slick-active button {
+  background-color: var(--button_background_color) !important;
+  opacity: 1;
+}
+
+#product_homepage .slick-slider .slick-dots li button {
+  background-color: var(--button_background_color) !important;
+  opacity: 0.5;
+}

@@ -1,0 +1,188 @@
+.Dashboard_TabList .Dashboard_Tab {
+  font-family: Poppins-Bold;
+  font-size: 18px;
+}
+
+.dashboard_model_heading_wrapper {
+  position: sticky;
+  top: 0;
+  background-color: #fff;
+}
+
+.Dashboard__Table {
+  font-family: Poppins;
+}
+.Dashboard__Table thead tr th {
+  font-family: Poppins-Bold;
+}
+.Dashboard__Table tbody tr td {
+  font-family: Poppins;
+}
+
+.no_item_found td {
+  font-family: Poppins-Black;
+}
+.no_item_found p {
+  font-family: Poppins;
+}
+
+.dashboard_model_table_container {
+  max-height: 180px;
+  overflow-y: scroll;
+}
+.dashboard_model_table_container::-webkit-scrollbar {
+  width: 5px;
+}
+.dashboard_model_table_container tr th {
+  font-family: Poppins-Bold;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+.dashboard_model_table_container tbody tr td {
+  font-family: Poppins;
+  padding-top: 0.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.Dashboard_Model_Box {
+  width: 650px;
+  background-color: #fff;
+  border: 2px solid #f36292;
+  padding: 0.5rem;
+}
+
+.Dasboard_Form label {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 15px;
+}
+.Dasboard_Form input,
+.Dasboard_Form select {
+  font-family: Poppins;
+  font-size: 15px;
+  /* --------- */
+  outline: none;
+  box-shadow: none;
+}
+.Dasboard_Form input:hover,
+.Dasboard_Form select:hover {
+  outline: none;
+  box-shadow: none;
+  border-color: black;
+}
+.Dasboard_Form input:focus,
+.Dasboard_Form select:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #f73164;
+}
+.Dasboard_Form input:active,
+.Dasboard_Form select:active {
+  outline: none;
+  box-shadow: none;
+  border-color: #f73164;
+}
+.Dasboard_Form .update_btn {
+  font-family: JellyDonuts;
+  font-size: 14px;
+  padding: 0.5rem 1rem;
+}
+
+.dashboard_model_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1999999;
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+}
+
+.dashboard_modal_cross_btn {
+  color: #fff;
+  background-color: #f73164;
+  border-radius: 50%;
+  font-size: 16px !important;
+  height: 20px !important;
+  width: 20px !important;
+  padding: 2px !important;
+  font-weight: 900 !important;
+}
+
+.dboard_table_view_btn {
+  color: #f73164;
+}
+
+.dashboard_model_heading_wrapper h2#unstyled-modal-title {
+  line-height: 1.5;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 1.5rem;
+}
+
+@media (max-width: 1024px) {
+  .Dashboard_TabList .Dashboard_Tab {
+    font-size: 16px;
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .Dashboard_Model_Box {
+    width: 98%;
+  }
+  .Dashboard_TabList .Dashboard_Tab {
+    font-size: 17px;
+    padding: 0rem 0.75rem;
+    min-height: 30px;
+    margin-bottom: 0;
+    line-height: 1;
+    transform: translateY(12px);
+  }
+  .Dashboard_TabList .Dashboard_Tab span {
+    margin-top: 0;
+  }
+  .dashboard_model_heading_wrapper h2#unstyled-modal-title {
+    font-size: 1.35rem;
+  }
+}
+
+@media (max-width: 575px) {
+  .dashboard_model_heading_wrapper h2#unstyled-modal-title {
+    line-height: 1;
+    font-size: 1rem;
+  }
+  .Dashboard_Model_Box h6 {
+    margin-bottom: 0;
+    font-size: 0.8rem;
+  }
+  .Dashboard_Model_Box .d_modelbox_div {
+    margin-top: 5px !important;
+  }
+  .d_modelbox_div.d_last {
+    margin-bottom: 6px;
+  }
+}
+
+@media (max-width: 426px) {
+  .Dashboard_TabList .Dashboard_Tab {
+    font-size: 14px;
+  }
+}
+@media (max-width: 400px) {
+  .Dashboard_TabList .Dashboard_Tab {
+    font-size: 13px;
+  }
+}
+@media (max-width: 365px) {
+  .Dashboard_TabList .Dashboard_Tab {
+    font-size: 12px;
+  }
+}
+@media (max-width: 340px) {
+  .Dashboard_TabList .Dashboard_Tab {
+    font-size: 10px;
+  }
+}

@@ -1,0 +1,238 @@
+#trending_title {
+  font-family: JellyDonuts;
+  text-align: center;
+  font-size: 3vw;
+  margin: 0;
+  margin-left: 5px;
+  margin-right: 5px;
+  color: #f36292;
+}
+#product_title {
+  text-align: center;
+  font-family: JellyDonuts;
+  margin: 0;
+  /* font-size: 6vw; */
+  font-size: 2.25vw;
+  line-height: 50px;
+  color: #f36292;
+}
+
+#product_card1 {
+  width: 95% !important;
+  display: grid !important;
+  margin: 0px 5px;
+}
+
+.active_category {
+  background-color: #f36292 !important;
+  color: white !important;
+  position: relative;
+}
+.active_category_sides {
+  position: relative;
+}
+.active_category_sides::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -2px;
+  width: 4px;
+  z-index: 99;
+  background-color: pink;
+}
+.active_category_sides::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: -2px;
+  width: 4px;
+  z-index: 99;
+  background-color: pink;
+}
+
+.products_cart_list {
+  /* padding-top: 20px; */
+  border-radius: 11px;
+  background-color: white;
+  /* box-shadow: 1px 1px 4px #bdbcbc, -1px -1px 1px #f1efef; */
+}
+.products_cart_list .p_cart_header {
+  border-bottom: 1px solid #a6a5a5;
+  /* border-bottom: 1px solid gray; */
+  font-family: Poppins;
+}
+.products_cart_list .p_cart_header h5:nth-child(1) {
+  font-family: Poppins-Bold;
+}
+
+.products_cart_list .cart_box {
+  position: relative;
+}
+.products_cart_list .cart_icon {
+  font-size: 32px;
+}
+.prod_items_added {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: red;
+  color: white;
+  font-size: 12px;
+  padding: 1px 5px;
+  border-radius: 50%;
+}
+
+.p_cart_items .image_box {
+  display: flex;
+  justify-content: center;
+}
+.p_cart_items .image_box_img {
+  width: 200px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  overflow: hidden;
+}
+.p_cart_items .p_item img {
+  border-radius: 50%;
+}
+.p_cart_items .p_item .box_image_bg {
+  width: 100%;
+}
+.box_image_overlay {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.p_cart_items .box_image_overlay img {
+  width: 50%;
+}
+.p_cart_items .p_item_text {
+  font-family: Poppins;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 600;
+}
+
+.total {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Poppins";
+  font-size: 28px;
+  font-weight: 400;
+}
+.products_cart_list__all_items {
+  /* max-height: 450px; */
+  /* max-height: 420px; */
+  /* overflow-y: scroll; */
+}
+.products_cart_list__all_items::-webkit-scrollbar {
+  width: 4px;
+}
+.products_cart_list__all_items::-webkit-scrollbar-track {
+  background: pink;
+  border-radius: 10px;
+}
+.products_cart_list__all_items::-webkit-scrollbar-thumb {
+  background: rgb(244, 66, 96);
+  border-radius: 10px;
+}
+.products_cart_list__all_items::-webkit-scrollbar-thumb:hover {
+  background: rgb(243, 35, 69);
+}
+
+.p_cart_items::-webkit-scrollbar {
+  width: 5px;
+  height: 4px;
+}
+
+@media (max-width: 1100px) {
+  #trending_title {
+    font-size: 3.25vw;
+  }
+  #product_title {
+    font-size: 2.5vw;
+    line-height: 40px;
+  }
+}
+
+@media screen and (max-width: 899.98px) {
+  .products_list_carts_wrapper {
+    margin-top: 50px;
+  }
+  #checkbox {
+    display: flex;
+    align-items: center;
+  }
+  #filter {
+    text-align: center;
+  }
+  #categories {
+    text-align: center;
+  }
+  .products_cart_list__all_items {
+    max-height: inherit !important;
+  }
+  .products_cart_list__all_items::-webkit-scrollbar {
+    width: 5px !important;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .categories_slider.dots_fixxed .slick-dots {
+    background-color: pink;
+    height: 26px;
+    /* bottom: -25px !important; */
+    z-index: -1;
+    bottom: -18px !important;
+    overflow: hidden;
+  }
+  #trending_title {
+    font-size: 4vw;
+  }
+  #product_title {
+    font-size: 2.75vw;
+    line-height: 32px;
+  }
+}
+@media screen and (max-width: 550px) {
+  #trending_title {
+    font-size: 5vw;
+  }
+  #product_title {
+    font-size: 4vw;
+    line-height: 22px;
+  }
+  #product_card1 {
+    width: 100% !important;
+    display: grid !important;
+    margin: 0px 5px;
+    padding: 0px 35px;
+  }
+  #checkbox {
+    display: flex;
+    align-items: center;
+  }
+  #filter {
+    text-align: center;
+  }
+  #categories {
+    text-align: center;
+  }
+}
+#footer_main {
+  margin-top: 0;
+}

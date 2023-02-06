@@ -1,0 +1,221 @@
+.prod_cartlist_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 10px;
+
+  /* box-shadow: 1px 1px 3px rgb(204, 204, 204), -1px -1px 1px rgb(230, 230, 230); */
+  padding: 5px;
+  /* border-radius: 8px; */
+  border-bottom: 1px solid #a6a5a5;
+}
+.borderBottom {
+  border-bottom: 1px solid #000000;
+}
+.products_cart_list {
+  border-bottom: none;
+}
+/* .prod_cartlist_item_image img {
+  height: 60px;
+  border-radius: 8px;
+  border: 1px solid rgb(199, 198, 198);
+} */
+.prod_cartlist_item_image {
+  width: 100px;
+  position: relative;
+}
+.glaze_layer {
+  position: absolute;
+  left: 0px;
+}
+.topping_layer {
+  position: absolute;
+  left: 0px;
+}
+.prod_cartlist_item_info {
+  margin-left: 10px;
+  margin-right: 10px;
+  /* height: 120px; */
+  min-height: 120px;
+  width: 100%;
+}
+
+.removeBtn {
+  font-size: 12px !important;
+}
+
+.prod_cartlist_item_name {
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: "Poppins";
+  font-weight: bolder;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 94px;
+}
+.prod_cartlist_item_price {
+  font-weight: 600;
+  font-size: 13px;
+}
+.prod_cartlist_item_price::after {
+  content: "€";
+  margin-left: 4px;
+}
+
+.prod_cartlist_item_remove_btn {
+  display: flex;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: transparent;
+  width: 100px;
+}
+.prod_cartlist_item_remove_btn:hover {
+  cursor: pointer !important;
+}
+.prod_cartlist_item_remove_btn .ico {
+  color: #ff6295;
+  font-size: 24px;
+}
+.prod_cartlist_item_remove_btn span {
+  color: #ff6295;
+  text-transform: capitalize;
+  font-size: 16px;
+  margin-top: 4px;
+}
+
+.prod_cartlist_item_add {
+  margin-left: 10px;
+  margin-right: 10px;
+  height: 120px;
+}
+
+.prod_item_change {
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+
+.prod_item_change .prod_item_num {
+  width: 40px;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+
+  font-family: "Montserrat";
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: #b1a9a9 !important;
+}
+.checkoutBtn {
+  background-color: #ff6295;
+  text-decoration: none !important;
+  outline: none !important;
+  border: none !important;
+  font-family: JellyDonuts !important;
+  /* font-size: 1.5rem !important; */
+  font-size: 1.35rem !important;
+
+  outline: none !important;
+  box-shadow: none !important;
+}
+.checkoutBtn:hover {
+  background-color: #ff6295;
+}
+
+.prod_item_change span {
+  color: black;
+  font-size: 18px;
+}
+
+.prod_item_change .m_btn {
+  color: black;
+  height: 22px;
+  /* width: 45px; */
+  transition: 0.25s;
+  font-size: 30px;
+}
+
+.prod_item_change .m_btn:hover {
+  cursor: pointer;
+  color: #ff6295;
+}
+
+.prod_cartlist_item_total_price {
+  font-weight: 600;
+  font-size: 1rem;
+  float: right;
+  color: "black";
+  font-family: "Poppins-bold";
+}
+.prod_cartlist_item_total_price::after {
+  content: "€";
+  margin-left: 4px;
+}
+.prod_inner {
+  width: 50px;
+  margin-left: 3% !important;
+}
+
+@media (min-width: 901px) and (max-width: 1300px) {
+  .prod_inner {
+    margin-left: 5% !important;
+  }
+  .prod_cartlist_item_total_price {
+    font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 430.98px) {
+  .product_img_name {
+    width: 200px;
+  }
+  .prod_cartlist_item {
+    /* flex-direction: column; */
+    align-items: flex-start;
+  }
+  .prod_cartlist_item_image img {
+    /* width: 100%; */
+    /* height: auto; */
+    /* margin-bottom: 10px; */
+  }
+  .prod_cartlist_item_info {
+    height: auto;
+  }
+  .prod_cartlist_item_add {
+    height: auto;
+  }
+  .prod_item_change {
+    max-width: 100px;
+    align-items: center;
+    justify-content: center;
+  }
+  .prod_item_change .m_btn {
+    width: auto;
+  }
+  .prod_item_change .prod_item_num {
+    font-size: 14px;
+    font-family: "Poppins";
+  }
+  .prod_item_change .m_btn {
+    font-size: 14px !important;
+  }
+  .prod_item_change {
+    height: 32px !important;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .prod_cartlist_item {
+    flex-direction: column;
+  }
+  .prod_cartlist_item_name {
+    width: 130px;
+  }
+  .prod_item_change {
+    width: 100% !important;
+    margin-right: 0px !important;
+  }
+}

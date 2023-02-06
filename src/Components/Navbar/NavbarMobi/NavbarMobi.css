@@ -1,0 +1,142 @@
+.mobi_navbar_menus_overlay {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 101;
+  transition: 0.25s;
+}
+
+.mobi_navbar_menu_top_items {
+  margin-top: 25px;
+  margin-left: 30px;
+  margin-right: 60px;
+  z-index: 9999;
+}
+
+.mobi_navbar_items_wrapper {
+  /* padding: 5rem 1rem 0; */
+  padding: 2rem 1rem 0;
+  position: relative;
+}
+
+.mb_navbar_items_box {
+  display: flex;
+  margin-bottom: 14px;
+}
+.mb_navbar_items_box .arrow_icon {
+  color: white !important;
+  /* font-size: 2.5rem !important; */
+  font-size: 1.6rem !important;
+  width: 40px;
+}
+.mb_navbar_items_box .mb_navbar_items {
+  font-family: Poppins-Bold;
+  /* font-family: JellyDonuts; */
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+.mb_navbar_items_box .mb_navbar_items.disabled {
+  color: #e6e0e0 !important;
+}
+
+.mb_navbar_dropdown {
+  background-color: transparent !important;
+}
+.mb_navbar_dropdown .card {
+  background-color: transparent !important;
+  border: none;
+}
+.mb_navbar_dropdown .card {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+.mb_navbar_dropdown .card .card-header {
+  padding: 0 !important;
+  border-bottom: 0;
+}
+.mb_navbar_dropdown .card .card-body {
+  padding-top: 8px !important;
+  padding-bottom: 0px !important;
+  padding-left: 0px !important;
+  transform: translateX(-15px);
+}
+.mb_navbar_dropdown .card .card-header h5 {
+  line-height: 1;
+}
+.mb_navbar_dropdown .card .card-header h5 button {
+  outline: none;
+  border: none;
+  box-shadow: none;
+  padding: 0px !important;
+  /*  */
+  font-family: Poppins-Bold;
+  color: white;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+}
+.mb_navbar_dropdown .card .card-header h5 button {
+  display: flex;
+  justify-content: space-between;
+}
+.mb_navbar_dropdown .card .card-header h5 button .title {
+  margin-right: 10px;
+}
+.mb_navbar_dropdown .card .card-header h5 button .icon {
+  margin-left: 2px;
+}
+.mb_navbar_dropdown .card .card-header h5 button:focus {
+  outline: none;
+  border: none;
+  box-shadow: none;
+}
+.mb_navbar_dropdown .card-header {
+  background-color: transparent !important;
+}
+
+.mb_navbar_dropdown .mb_navbar_items_box:last-child {
+  margin-bottom: 0;
+}
+
+.prod_cart_box_overlay {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 99;
+}
+
+@media (max-width: 575px) {
+  .mb_navbar_items_box .arrow_icon {
+    font-size: 1.8rem !important;
+    width: 36px;
+  }
+  .mb_navbar_items_box .mb_navbar_items {
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+}
+
+@media (max-width: 360px) {
+  .mb_navbar_items_box .arrow_icon {
+    font-size: 1.4rem !important;
+    width: 30px;
+  }
+  .mb_navbar_items_box .mb_navbar_items {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  .nav_user_icon {
+    font-size: 1.8rem !important;
+  }
+}

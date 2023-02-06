@@ -1,0 +1,432 @@
+.InvoiceContainer {
+  background-color: white;
+  overflow: hidden;
+}
+
+.Donuts {
+  position: fixed;
+  width: 69%;
+}
+
+.logo {
+  width: 33%;
+}
+
+.invoice_order_store_div h3 {
+  font-family: Poppins-Bold;
+}
+.header_invoice_title {
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+.ShadowTag {
+  margin-top: 3%;
+  width: 61%;
+  margin-left: 22%;
+  height: 53px;
+}
+
+.header_invoice_email {
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+.invoice_table {
+  font-family: Poppins;
+  margin-bottom: 70px;
+}
+.invoice_table th {
+  font-family: Poppins-Bold;
+  font-size: 15px;
+}
+.invoice_table td {
+  font-family: Poppins;
+  font-size: 12px;
+}
+.invoice_table td strong {
+  font-family: Poppins;
+}
+
+.Tag {
+  height: 57px;
+  width: 56%;
+  margin-top: -12%;
+  margin-left: 26%;
+}
+
+.TagText {
+  position: absolute;
+  margin-left: 15%;
+  margin-top: -3.5%;
+  font-size: 160%;
+}
+
+.HeaderDonut {
+  height: 14rem;
+  margin-top: -0.5%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.HeaderDonutShadow {
+  height: 16rem;
+  margin-top: 0%;
+  margin-left: 3%;
+  position: absolute;
+}
+
+.UpperShadow {
+  height: 15%;
+  width: 7%;
+  margin-top: 0%;
+  margin-left: 5%;
+  position: absolute;
+}
+
+.Image {
+  height: 12%;
+  width: 6%;
+  margin-top: 0%;
+  margin-left: 6%;
+  position: absolute;
+}
+
+.LeftHeaderText {
+  font-size: 90%;
+}
+
+.RightHeaderText {
+  font-size: 90%;
+  margin-left: 34%;
+}
+
+.ParentContainer {
+  margin-left: 10%;
+}
+
+.ParentTableDiv {
+  width: 85%;
+  padding: 99px;
+  margin-top: -12%;
+}
+
+.BottomContainer {
+  margin-left: 6%;
+}
+
+.LeftFooterImage {
+  width: 63%;
+  margin-left: -38%;
+  margin-top: -71%;
+}
+
+.LeftFooterShadow {
+  margin-top: -18%;
+  margin-left: -32%;
+  width: 66%;
+}
+
+.RightFooterImage {
+  width: 14%;
+  margin-left: 9%;
+  margin-top: -14%;
+  position: absolute;
+}
+
+.RightFooterShadow {
+  margin-top: -15%;
+  margin-left: 34%;
+  width: 62%;
+}
+
+.FooterContent {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.detail_div {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.detail_desc_row {
+  width: 50%;
+  margin-bottom: 4px;
+}
+
+.detail_desc_row:nth-child(even) {
+  justify-content: flex-end;
+}
+.detail_desc_row_inner {
+  display: flex;
+  margin-bottom: 5px;
+}
+.detail_desc_row_inner h6 {
+  font-family: Poppins;
+  font-size: 15px;
+  margin-bottom: 0;
+}
+.detail_desc_row_inner h6.title {
+  font-weight: 600;
+  margin-right: 8px;
+}
+/* .detail_desc_row:nth-child(odd) .detail_desc_row_inner h6.title {
+  width: 120px;
+} */
+.detail_desc_row .detail_desc_row_inner h6.title {
+  width: 115px;
+  min-width: 115px;
+}
+#address {
+  margin-left: 0rem;
+}
+.detail_desc_row:nth-child(even) .detail_desc_row_inner {
+  justify-content: flex-end;
+}
+.detail_desc_row:nth-child(even) .detail_desc_row_inner h6.value {
+  width: 180px;
+}
+
+.order_summary {
+  font-family: Poppins-Bold;
+}
+
+.top_invoice_back_to_shipping_btn {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 30px;
+  height: 30px;
+  background-color: #f72668;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  cursor: pointer;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.top_invoice_back_to_shipping_btn .icon {
+  color: #fff;
+  font-weight: 900 !important;
+  font-size: 24px !important;
+}
+.top_invoice_back_to_shipping_btn:hover {
+  background-color: #ff6295;
+}
+/* bottom_invoice_print_btn */
+.bottom_invoice_print_btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 40px;
+  height: 40px;
+  background-color: #f72668;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 99;
+  cursor: pointer;
+  /* box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+.bottom_invoice_print_btn .icon {
+  color: #fff;
+  font-weight: 900 !important;
+  font-size: 24px !important;
+}
+.bottom_invoice_print_btn:hover {
+  background-color: #ff6295;
+}
+
+.grand_total_detail_wrap {
+  padding: 15px 10px;
+  margin-right: 11%;
+}
+.grand_total_detail_wrap .grand_total_detail {
+  display: flex;
+  justify-content: end;
+}
+.grand_total_detail p {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-family: "Poppins";
+}
+.grand_total_detail p.title {
+  font-family: Poppins-Bold;
+  margin-right: 6px;
+  text-align: end;
+}
+.grand_total_detail p.value {
+  font-weight: 600;
+  font-family: Poppins;
+  width: 120px;
+  text-align: end;
+}
+
+.invoice_prod_table tr {
+  width: 120px !important;
+}
+.invoice_prod_table tr td:nth-child(2) {
+  width: 35%;
+}
+.invoice_prod_table tr td:not(:nth-child(2)) {
+  width: 21.66%;
+}
+.invoice_prod_table tr td:first-child {
+  width: 6%;
+}
+@media (min-width: 426px) and (max-width: 800px) {
+  .invoice_image_store_wrapper {
+    flex-wrap: wrap;
+  }
+  .invoice_logo_image_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .invoice_logo_image {
+    height: 120px;
+  }
+  .invoice_order_store_div {
+    width: 100%;
+  }
+  .invoice_logo_image {
+    height: 160px;
+  }
+  .header_invoice_title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+  .header_invoice_email {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .keep_shopping_btn {
+    font-size: 12px !important;
+    font-family: JellyDonuts !important;
+  }
+  .order_summary {
+    margin: 25px 0px;
+  }
+  .print_btns {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 1025px) {
+  .detail_desc_row .detail_desc_row_inner h6.title {
+    width: 105px;
+    min-width: 105px;
+  }
+  .grand_total_detail_wrap {
+    margin-right: 80px;
+  }
+}
+
+@media (max-width: 800px) {
+  .grand_total_detail_wrap {
+    margin-right: 60px;
+  }
+  .detail_div {
+    flex-direction: column;
+  }
+  .detail_desc_row {
+    width: 100%;
+  }
+  .detail_desc_row:nth-child(even) .detail_desc_row_inner {
+    justify-content: flex-start;
+  }
+  .detail_desc_row .detail_desc_row_inner h6.title {
+    width: 100px;
+    min-width: 100px;
+  }
+  /* #address {
+    margin-left: 7px;
+  } */
+  .detail_desc_row:nth-child(even) .detail_desc_row_inner h6.value {
+    width: auto;
+  }
+  .detail_desc_row .detail_desc_row_inner h6.value {
+    width: auto;
+    margin-left: 8px;
+  }
+}
+
+@media (max-width: 764px) {
+  .grand_total_detail_wrap {
+    margin-right: 6%;
+  }
+}
+
+@media (max-width: 550px) {
+  .grand_total_detail_wrap {
+    margin-right: 0px;
+  }
+  .order_summary {
+    font-size: 1.2rem;
+    margin-top: 10px !important;
+    margin-bottom: 20px !important;
+  }
+  .invoice_prod_table {
+    width: 500px !important;
+  }
+  .header_invoice_title {
+    margin-bottom: 5px !important;
+  }
+  .detail_desc_row .detail_desc_row_inner h6.title {
+    font-size: 13px;
+    width: 68px;
+    max-width: 68px;
+  }
+  .detail_desc_row .detail_desc_row_inner h6.value {
+    font-size: 13px;
+  }
+  #address {
+    margin-left: 7px;
+  }
+}
+
+@media (max-width: 426px) {
+  .invoice_image_store_wrapper {
+    flex-wrap: wrap;
+  }
+  .invoice_logo_image_box {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .invoice_logo_image {
+    height: 120px;
+  }
+  .invoice_order_store_div {
+    width: 100%;
+  }
+  .invoice_logo_image {
+    height: 160px;
+  }
+  .header_invoice_title {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0px;
+  }
+  .header_invoice_email {
+    align-self: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .keep_shopping_btn {
+    font-size: 14px;
+  }
+  .order_summary {
+    margin: 25px 0px;
+  }
+}

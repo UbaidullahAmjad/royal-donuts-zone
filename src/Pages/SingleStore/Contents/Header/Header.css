@@ -1,0 +1,83 @@
+.shop_name {
+  position: absolute;
+  left: 7pc;
+  bottom: 30px;
+}
+
+.shop_name div {
+  color: white;
+}
+.shop_name .shop_name_1 {
+  font-family: Poppins-Bold;
+}
+.shop_name .shop_name_2 {
+  font-family: Poppins;
+}
+.img_buttons {
+  position: absolute;
+  bottom: 30px;
+  right: 6pc;
+}
+.img_button_layout {
+  padding: 6px 20px 6px 20px !important;
+  margin-right: 10px;
+}
+.img_button_layout span {
+  font-family: JellyDonuts;
+  font-size: 10px;
+}
+.social_icon{
+  width: 3rem !important;
+  height: 3rem !important;
+  margin-right: 1.5rem !important;
+}
+.social_media_share{
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1024px) {
+  .shop_name {
+    position: absolute;
+    left: 5pc;
+    bottom: 30px;
+  }
+  .img_buttons {
+    position: absolute;
+    bottom: 30px;
+    right: 4pc;
+  }
+}
+@media (max-width: 768px) {
+  .shop_name {
+    position: absolute;
+    left: 5pc;
+    bottom: 30px;
+  }
+  .img_buttons {
+    width: 35%;
+    position: absolute;
+    bottom: 30px;
+    right: 4pc;
+  }
+  #order_btn {
+    margin-bottom: 10px;
+  }
+  #review_btn {
+    margin-bottom: 10px;
+  }
+}
+@media (max-width: 550px) {
+  .shop_name {
+    position: absolute;
+    left: 1.2pc;
+    bottom: 5.8pc;
+  }
+  .img_buttons {
+    position: absolute;
+    bottom: 30px;
+    right: 1pc;
+  }
+}

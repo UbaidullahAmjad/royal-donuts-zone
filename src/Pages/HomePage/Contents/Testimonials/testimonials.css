@@ -1,0 +1,136 @@
+.testimonails-custom-shape-divider-top-1642772984 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.testimonails-custom-shape-divider-top-1642772984 svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 160px;
+}
+
+.testimonails-custom-shape-divider-top-1642772984 .shape-fill {
+  /* fill: #ffffff; */
+  fill: #f8f8f8;
+}
+
+.testimonial_heading {
+  font-size: 45px;
+  color: rgb(243, 98, 146);
+}
+.testimonial_sub_heading {
+  font-size: 25px;
+  color: rgb(243, 98, 146);
+}
+
+#test_donut_img {
+  height: 300px;
+  margin-right: -9rem;
+  margin-top: -10rem;
+  position: relative;
+}
+
+.testiminial_title_col .testiminial_title_1 {
+  font-size: 2.2vw;
+}
+.testiminial_title_col .testiminial_title_2 {
+  font-size: 2.6vw;
+}
+
+#card {
+  /* margin-left: 70px; */
+  margin-left: 20px;
+}
+#testimonial_content {
+  margin-left: 20px;
+}
+.row > * {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width: 2014px) {
+  .testiminial_title_col .testiminial_title_1 {
+    font-size: 30px !important;
+  }
+  .testiminial_title_col .testiminial_title_2 {
+    font-size: 34px !important;
+  }
+}
+@media (min-width: 1700px) {
+  .testiminial_title_col .testiminial_title_1 {
+    font-size: 2vw;
+  }
+  .testiminial_title_col .testiminial_title_2 {
+    font-size: 2.2vw;
+  }
+}
+
+
+@media screen and (max-width: 600px) {
+  #card {
+    margin-left: 0px;
+  }
+  #testimonial_content {
+    margin-left: 10px;
+  }
+  .row > * {
+    padding-left: 0;
+  }
+  .testimonails-custom-shape-divider-top-1642772984 svg {
+    height: 90px;
+  }
+  #right_image_setting {
+    margin-top: 4.3pc;
+  }
+
+  #testimonial_content h1 {
+    font-size: 26px !important;
+  }
+  #testimonial_content p {
+    font-size: 14px;
+  }
+
+  .testimonial_heading {
+    font-size: 45px;
+    padding-bottom: 10px;
+  }
+  .testimonial_sub_heading {
+    font-size: 22px;
+  }
+}
+
+@media screen and (max-width: 440px) {
+  .testimonial_heading {
+    font-size: 32px;
+  }
+  .testimonial_sub_heading {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .testimonial_heading {
+    font-size: 24px;
+    padding-bottom: 2px;
+  }
+  .testimonial_sub_heading {
+    font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .testimonial_heading {
+    font-size: 20px;
+    margin-left: -10px !important;
+  }
+  .testimonial_sub_heading {
+    margin-left: -10px;
+    font-size: 13px;
+  }
+}

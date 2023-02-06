@@ -1,0 +1,27 @@
+#insta_all_images {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  margin-bottom: -15px;
+}
+
+#insta_all_images a img {
+  width: 25%;
+}
+
+
+@media screen and (max-width: 576px) {
+  #insta_all_images a img {
+    width: 100% !important;
+  }
+}
+@media screen and (max-width: 776px) {
+  #insta_all_images a img {
+    width: 50%;
+  }
+}
+/* @media screen and (min-width: 1560px) {
+  #insta_all_images {
+    height: 20vw;
+  }
+} */

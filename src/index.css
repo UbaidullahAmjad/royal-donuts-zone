@@ -1,0 +1,162 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins;
+  background-color: #f8f8f8;
+}
+
+@font-face {
+  font-family: "Bowhead";
+  src: local("Bowhead"), url("./fonts/Bowhead.woff") format("truetype");
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: "JellyDonuts";
+  src: local("Bowhead"),
+    url("./fonts/JellyDonuts.woff") format("truetype");
+  font-weight: bold;
+}
+
+/* ---------------- */
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./fonts/Poppins/Poppins.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Regular";
+  src: url("./fonts/Poppins/Poppins-Regular.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Black";
+  src: url("./fonts/Poppins/Poppins-Black.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins-BlackItalic";
+  src: url("./fonts/Poppins/Poppins-BlackItalic.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins-Bold";
+  src: url("./fonts/Poppins/Poppins-Bold.ttf") format("woff");
+}
+@font-face {
+  font-family: "Poppins-BoldItalic";
+  src: url("./fonts/Poppins/Poppins-BoldItalic.ttf") format("woff");
+}
+
+@media print {
+  .printmedia {
+    display: none;
+  }
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.no-scroll {
+  overflow-y: hidden;
+}
+
+.MuiTablePagination-selectLabel.css-pdct74-MuiTablePagination-selectLabel {
+  margin-bottom: 0rem !important;
+}
+
+.MuiTablePagination-displayedRows.css-levciy-MuiTablePagination-displayedRows {
+  margin-bottom: 0rem !important;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+  height: 5px;
+}
+
+::-webkit-scrollbar-track {
+  /* background: #e6e3e3; */
+  background: pink;
+}
+
+::-webkit-scrollbar-thumb {
+  /* background: #888; */
+  background: rgb(244, 66, 96);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  /* background: #555; */
+  background: rgb(243, 35, 69);
+}
+.fixxed {
+  position: fixed;
+  top: 0;
+  background-color: pink;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 10%;
+  opacity: 0.9;
+}
+.fixxed img {
+  width: 65px;
+  height: 65px;
+}
+.slick-slider {
+  margin-left: auto !important;
+}
+.slick-dots li button:before {
+  font-size: 24px !important;
+}
+.slick-next:before,
+.slick-prev:before {
+  opacity: unset !important;
+  color: black !important;
+  background: white !important;
+}
+.slick-dots li button:before,
+.slick-next:before,
+.slick-prev:before {
+  font-family: "auto" !important;
+}
+.custom-shape-divider-top-1642772984 .shape-fill {
+  fill: #f8f8f8 !important;
+}
+.datepicker .datepicker-viewport {
+  overflow-y: scroll !important;
+}
+
+.out_of_stock {
+  cursor: default !important;
+  opacity: 0.7 !important;
+}
+
+/* .fixxed img{
+width: 10px;
+} */
+
+/* ----------------------------------------- */
+
+.MuiFormLabel-asterisk {
+  color: red !important;
+}
+
+/* ----------------------------------------- */
+.MuiFormControl-root label {
+  font-family: Poppins !important;
+}
+.MuiFormControl-root input {
+  font-family: Poppins !important;
+}
+.MuiFormControl-root ul {
+  font-family: Poppins !important;
+}
+.MuiFormControl-root li {
+  font-family: Poppins !important;
+}
+.MuiFormControl-root .MuiSelect-select {
+  font-family: Poppins;
+}
+/* ----------------------------------------- */

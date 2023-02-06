@@ -1,0 +1,149 @@
+.direction_link_parent {
+  position: relative;
+}
+.direction_link {
+  background-color: #ec5f7f !important;
+  font-size: 12px;
+  text-decoration: none !important;
+  outline: none !important;
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 3vh;
+  width: 100%;
+  height: 30px;
+  color: white;
+  /* margin-right: 10%; */
+}
+.mapDetail {
+  display: flex;
+  justify-content: flex-start;
+  padding: 0;
+  margin: 0;
+}
+.mapAddress {
+  font-family: Poppins;
+  font-size: 10px;
+  font-weight: 300;
+  color: black;
+}
+.iconMap {
+  border-radius: 50%;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  box-shadow: none;
+  width: 30px;
+  height: 30px;
+  outline: none;
+}
+.iconMap:hover {
+  border: none;
+  outline: none;
+}
+
+.direction_link:focus {
+  box-shadow: none !important;
+}
+
+.foundStore_card {
+  width: 380px !important;
+  padding-bottom: 5px !important;
+  border-radius: 12px !important;
+  top: -270px !important;
+  left: -180px !important;
+  position: absolute !important;
+  background-color: white !important;
+  display: flex !important;
+  flex-direction: column !important;
+}
+
+.foundStore_card_title {
+  font-family: Poppins-Black;
+  font-size: 15px;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2; /* number of lines to show */
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+.foundStore_image_div {
+  height: 225px;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(-130%);
+  }
+  100% {
+    transform: translateY(-90%);
+  }
+}
+
+.bounce {
+  /* margin-left: -1rem; */
+  animation: bounce 0.8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  position: absolute;
+  left: -15px;
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .direction_link {
+    top: 3vh;
+  }
+  .foundStore_card {
+    top: -270px !important;
+  }
+}
+@media (min-width: 426px) and (max-width: 1024px) {
+  .direction_link {
+    font-size: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 3vh;
+  }
+}
+
+@media (max-width: 425px) {
+  .direction_link_parent {
+    width: 100% !important;
+  }
+  .direction_link {
+    font-size: 12px;
+    height: 28px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    top: 1vh;
+  }
+  .foundStore_card {
+    width: 300px !important;
+    left: -150px !important;
+    top: -248px !important;
+  }
+}
+@media (max-width: 375px) {
+  .direction_link {
+    padding: 10px;
+    font-size: 9px;
+  }
+  .foundStore_card {
+    top: -248px !important;
+  }
+  .direction_link {
+    top: 1vh;
+  }
+}
+@media (max-width: 320px) {
+  .foundStore_card {
+    top: -248px !important;
+  }
+  .direction_link {
+    top: 1vh;
+  }
+}

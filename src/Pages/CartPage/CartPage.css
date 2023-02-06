@@ -1,0 +1,570 @@
+.cartpage__wrapper {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 60px;
+  margin-bottom: 80px;
+}
+
+#cart_zip_code > :invalid {
+  border: "red solid 2px";
+}
+
+.cartpage_comp {
+  background-color: #ffff;
+  padding: 10px;
+  padding-top: 14px !important;
+}
+
+.cartpage_comp .c_title {
+  font-size: 22px;
+  font-family: Poppins !important;
+  z-index: 5;
+  /* padding-bottom: 10px; */
+  padding-bottom: 0px !important;
+}
+
+.disabled_time {
+  pointer-events: none;
+  opacity: 0.6;
+  color: grey;
+}
+
+.minutesValue:hover {
+  color: #ff6295;
+  transform: scale(1.5);
+}
+.minutesValue {
+  font-family: Poppins;
+}
+.hoursValue {
+  font-family: Poppins;
+}
+.hoursValue:hover {
+  color: #ff6295;
+  transform: scale(1.5);
+}
+.timeSelectButton {
+  background-color: #ff6295;
+  color: white !important;
+}
+.timeSelectDisabled {
+  background-color: #ff6295;
+  color: rgba(0, 0, 0, 0.26) !important;
+}
+
+.cartpage_bg_imagebox {
+  position: relative;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  /* background-color: #FF629530; */
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  z-index: -1;
+  display: none !important;
+}
+
+.cartpage_bg_imagebox img {
+  width: 60%;
+  max-height: 40vh;
+  z-index: -1;
+  transform: rotate(180deg);
+}
+
+.cartpage__box {
+  margin-top: 30px;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.cartpage__box .MuiTabs-flexContainer {
+  justify-content: center !important;
+}
+
+.cartpage__box_tab .TabContext__tab {
+  padding: 50px;
+}
+
+.cartpage__box_tab .MuiTab-root {
+  font-family: Poppins-Black;
+  background-color: #dadadb !important;
+  border-radius: 10px;
+  font-size: 14px;
+  /* margin-left: 10px; */
+  margin-right: 10px;
+}
+
+/* Active color of the icon of tab */
+.cartpage__box_tab .MuiTab-root.Mui-selected {
+  color: #fafafa;
+  background-color: #ff6295 !important;
+}
+
+.cartpage__box_tab button {
+  color: #000000;
+}
+
+.cartpage__box_tab .cartpage_icon {
+  font-size: 40px;
+}
+
+.cartpage_condition_check span {
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 15px;
+}
+.cartpage_condition_check .Mui-checked {
+  color: #ff6295 !important;
+}
+
+.cartpage__box_tab .MuiTouchRipple-child {
+  background: #fffdfd !important;
+}
+
+.cartpage_next_btn_wrapped {
+  width: 100%;
+}
+.cartpage_next_btn_wrapped button {
+  font-family: JellyDonuts !important;
+}
+.cartpage_submit_btn {
+  background-color: #ff6295;
+  font-size: 18px !important;
+  color: #ffffff !important;
+  text-transform: capitalize !important;
+  /* width: 94% !important; */
+  width: 100% !important;
+}
+.cartpage_next_btn {
+  background-color: #ff6295;
+  color: white !important;
+  font-size: 18px !important;
+  text-transform: capitalize !important;
+  /* width: 94% !important; */
+  width: 100% !important;
+}
+.cartpage_submit_btn:disabled {
+  /* background-color: #ee8dab !important; */
+  /* color: rgba(0, 0, 0, 0.26) !important; */
+}
+/* .cartpage_next_btn:disabled {
+  background-color: #ee8dab !important;
+  color: rgba(0, 0, 0, 0.26) !important;
+} */
+.cartpage_next_btn a {
+  color: white !important;
+  width: 100%;
+}
+.cartpage_next_btn:disabled a {
+  color: rgba(0, 0, 0, 0.26) !important;
+}
+
+.cartpage_tabpanel {
+  padding: 0px 12px !important;
+}
+.cartpage_tabpanel .zip_code {
+  display: flex;
+  align-items: center;
+  /* margin-left: 10px; */
+}
+.cartpage_tabpanel .zip_code label {
+  font-size: 15px;
+  /* color: #ee8dab */
+}
+/* .css-1sumxir-MuiFormLabel-root-MuiInputLabel-root.Mui-focused {
+  color: #ee8dab !important;
+} */
+.cartpage_tabpanel .zip_code input {
+  margin-left: 6px;
+  width: 100%;
+  border-color: #494949;
+  outline: none;
+  box-shadow: none;
+  margin: 0;
+}
+.zip_code .MuiTextField-root {
+  width: 100%;
+  margin-top: 6px;
+}
+.cartpage_tabpanel .MuiInputBase-colorPrimary {
+  background-color: #f7f7fa;
+}
+.zip_code .css-1d3z3hw-MuiOutlinedInput-notchedOutline {
+  border-color: #ff6295 !important;
+}
+.cartpage_tabpanel .zip_code input:focus {
+  border-color: #ff6295;
+}
+.zip_code input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0 !important;
+}
+.zip_code .input[type="number"] {
+  -moz-appearance: textfield !important;
+}
+.zip_code #cart_zip_code:focus {
+  border-color: #ff6295;
+}
+
+.cp_zip_info {
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.cp_zip_info p {
+  margin-bottom: 0;
+  line-height: 1.2rem;
+  font-size: 15px;
+}
+
+.cp_calendar_section {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.calendar_ico_wrapped {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.calendar_ico_wrapped .ico {
+  padding: 15px;
+  background-color: #ff6295;
+  border-radius: 10px;
+  width: 110px;
+  height: 70px;
+}
+
+.cp_calendar_section .css-1snvurg-MuiPickerStaticWrapper-root {
+  min-width: 300px !important;
+}
+.cp_calendar_section .MuiPickersDay-root.Mui-selected {
+  background-color: #ff6295;
+}
+.cp_calendar_section .MuiPickersDay-root:focus.Mui-selected {
+  background-color: #ff6295;
+}
+.cp_calendar_section .css-1f2kitb-MuiDateRangePickerDay-root {
+  background-color: #fca9c3 !important;
+}
+
+.cp_calendar_section
+  .MuiDateRangePickerDay-rangeIntervalDayHighlight.MuiDateRangePickerDay-rangeIntervalDayHighlightStart {
+  background-color: #fca9c3 !important;
+}
+.cp_calendar_section
+  .MuiDateRangePickerDay-rangeIntervalDayHighlight.MuiDateRangePickerDay-rangeIntervalDayHighlightEnd {
+  background-color: #fca9c3 !important;
+}
+.cp_calendar_section .PrivatePickersSlideTransition-root {
+  /* height: 210px !important; */
+  /* min-height: 280px !important; */
+  min-height: 300px !important;
+  background-color: #f1edef;
+}
+.cp_calendar_section .PrivatePickersSlideTransition-root .css-i6bazn {
+  /* padding-top: 20px; */
+  padding-top: 6px;
+}
+
+#staticBackdrop button {
+  font-family: Poppins-Black;
+  font-size: 15px;
+}
+
+.date_picker__delivery_time_buttons {
+  transform: translateY(-50px);
+  margin-top: 40px;
+  margin-bottom: -25px;
+  display: flex;
+  justify-content: end;
+  width: 320px;
+  padding-left: 5px;
+  padding-right: 5px;
+  background: #f1edef;
+  padding-bottom: 6px;
+}
+
+@media (max-width: 350px) {
+  .date_picker__delivery_time_buttons {
+    width: 300px;
+  }
+}
+
+.date_picker__delivery_time_buttons button {
+  font-family: JellyDonuts;
+  margin-left: 3px;
+  margin-right: 3px;
+  background-color: #ff6295;
+  color: white;
+  padding: 6px 4px;
+  font-size: 9px;
+  margin-top: 10px;
+}
+.date_picker__delivery_time_buttons button:hover {
+  background-color: #f52b6b;
+}
+
+/* DataPicker Hours Pin Color */
+.css-7lip4c {
+  background-color: #ff6295 !important;
+}
+.css-12ha4i7 {
+  background-color: #ff6295 !important;
+}
+.css-7lip4c:focus {
+  background-color: #ff6295 !important;
+}
+/* DataPicker Hours Circle Color */
+.css-118whkv {
+  border: 16px solid #ff6295 !important;
+  background-color: #ff6295 !important;
+}
+.css-118whkv:focus {
+  border: 16px solid #ff6295 !important;
+  background-color: #ff6295 !important;
+}
+/* DataPicker Minutes Circle Color */
+.css-2ujp1m {
+  border: 16px solid #ff6295 !important;
+}
+.css-2ujp1m:focus {
+  border: 16px solid #ff6295 !important;
+}
+/* DataPicker Minutes Pin Color */
+.css-a1rc6s {
+  background-color: #ff6295 !important;
+}
+.css-a1rc6s:focus {
+  background-color: #ff6295 !important;
+}
+/* DatePicker Model Button Colors */
+.css-1ay6ak0-MuiDialogActions-root
+  .css-1e6y48t-MuiButtonBase-root-MuiButton-root {
+  color: #ff6295 !important;
+}
+
+/* --------- */
+/** Mobile Date Picker */
+.datepicker-modal {
+  position: fixed !important;
+  z-index: 999999 !important;
+}
+.datepicker-modal .datepicker-header {
+  background-color: #ff6295 !important;
+  color: #ffffff !important;
+  margin: 3px;
+}
+.datepicker-modal .datepicker {
+  position: static;
+  transform: translateY(-10%) !important;
+  width: 40%;
+}
+.datepicker-modal .datepicker-navbar {
+  justify-content: center;
+  display: flex;
+}
+.datepicker-modal .datepicker-navbar .datepicker-navbar-btn {
+  background-color: #ff6295;
+  color: #ffffff !important;
+  margin-left: 2px;
+  margin-right: 2px;
+  text-decoration: none;
+}
+.datepicker-modal .datepicker-navbar .datepicker-navbar-btn:hover {
+  background-color: #eb1e5f;
+}
+.datepicker-modal .datepicker.default .datepicker-wheel {
+  border-top: 1px solid #ff6295;
+  border-bottom: 1px solid #ff6295;
+}
+/* --------- */
+
+.cartpage_cart_data.cartpage_cart_header p {
+  font-family: Poppins-Bold;
+}
+.cartpage_cart_box .cartpage_cart_data {
+  display: flex;
+}
+.cartpage_cart_data.cartpage_cart_header {
+  background-color: #d8d4d4;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+.cartpage_cart_data.cartpage_cart_header .title {
+  margin-bottom: 0;
+  text-align: center;
+  padding: 0.25rem 0.5rem;
+  color: #000000;
+  font-weight: 500;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1; /* number of lines to show */
+  line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+
+.cartpage_cart_data.cartpage_cart_header .item_price {
+  margin-left: 2pc;
+}
+
+.cartpage_cart_data.cartpage_cart_header .product_item {
+  text-align: start !important;
+}
+.cartpage_cart_data .product_item {
+  margin-left: 3pc;
+}
+.cartpage_cart_data.cartpage_cart_body {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid lightgrey;
+  border-left: 1px solid lightgrey;
+  border-right: 1px solid lightgrey;
+}
+.cartpage_cart_data .product_item {
+  flex: 3.5;
+  text-align: start;
+}
+.cartpage_cart_data .item_price {
+  flex: 1.2;
+}
+.cartpage_cart_data .quantity {
+  flex: 1.2;
+}
+.cartpage_cart_data .subtotal {
+  flex: 1.2;
+}
+.cartpage_cart_data .delete {
+  flex: 0.5;
+}
+
+/* --------- */
+.table-body-borderless > thead > tr > th,
+.table-body-borderless > tbody > tr > td,
+.table-body-borderless > tbody > tr > th {
+  border: none;
+}
+
+.table-body-borderless > thead > tr > th {
+  background: #dddddd;
+}
+
+.table-body-borderless > tbody > tr > tr {
+  border-color: #dddddd;
+}
+
+.table-body-borderless > :not(:first-child) {
+  border: 0px solid #dddddd;
+}
+
+table tbody {
+  display: block;
+  max-height: 400px;
+  overflow-y: scroll;
+}
+
+table thead,
+table tbody tr {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+}
+
+@media (max-width: 1266px) {
+  .cartpage__box_tab .TabContext__tab {
+    padding: 50px !important;
+  }
+}
+@media (max-width: 991.98px) {
+  .cartpage__box_tab .TabContext__tab {
+    padding: 40px;
+  }
+  .datepicker-modal .datepicker {
+    width: 60%;
+  }
+}
+
+@media (max-width: 767px) {
+  .cartpage_tabpanel {
+    padding: 0px 5px !important;
+  }
+  .tabpanel_wrapped {
+    overflow: hidden;
+  }
+  .cp_calendar_section .PrivatePickersSlideTransition-root {
+    /* overflow-x: scroll; */
+  }
+  /* .cp_calendar_section .css-1snvurg-MuiPickerStaticWrapper-root {
+    min-width: 200px !important;
+    width: 200px !important;
+  } */
+}
+
+@media (max-width: 591.98px) {
+  /* table thead,
+  table tbody tr {
+    width: 100%;
+    table-layout: fixed;
+  } */
+  table tbody tr {
+    display: block;
+    width: 100%;
+    table-layout: fixed;
+  }
+  /* ------- */
+
+  .cartpage_cart_box_wrapper {
+    overflow-x: scroll;
+  }
+  .cartpage_cart_data {
+    width: 600px;
+  }
+}
+@media (max-width: 429.98px) {
+  .cartpage__box_tab .TabContext__tab {
+    padding: 20px;
+  }
+  .datepicker-modal .datepicker {
+    width: 95%;
+  }
+}
+
+@media (max-width: 380px) {
+  #store_info {
+    width: 150px !important;
+    overflow: hidden;
+    display: inline-block !important;
+    text-decoration: none;
+    text-overflow: ellipsis;
+  }
+}
+
+@media (max-width: 320px) {
+  .cartpage__box_tab button {
+    width: 120px;
+  }
+  .store_selct_font {
+    font-size: 12px;
+  }
+  .selcted_store_item {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 900px) and (max-width: 1200px) {
+  .cart_glaze_layer {
+    width: 80px !important;
+  }
+  .cart_topping_layer {
+    width: 80px !important;
+  }
+}

@@ -1,0 +1,121 @@
+.checkout_products_item {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+  
+    box-shadow: 1px 1px 3px rgb(204, 204, 204), -1px -1px 1px rgb(230, 230, 230);
+    padding: 5px;
+    border-radius: 8px;
+  }
+  
+  .checkout_products_item_image img {
+    height: 120px;
+    width: 120px;
+    border-radius: 8px;
+    /* border: 1px solid rgb(199, 198, 198); */
+  }
+  
+  .checkout_products_item_info {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 120px;
+  }
+  
+  .checkout_products_item_name {
+    font-size: 18px;
+    text-transform: capitalize;
+  }
+  .checkout_products_item_price {
+    font-weight: 600;
+    font-size: 20px;
+  }
+  .checkout_products_item_price::after {
+    content: "€";
+    margin-left: 4px;
+  }
+  
+  .checkout_products_item_remove_btn {
+    display: flex;
+    align-items: center;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    width: 100px;
+  }
+  .checkout_products_item_remove_btn:hover {
+    cursor: pointer !important;
+  }
+  .checkout_products_item_remove_btn .ico {
+    color: #ff6295;
+    font-size: 24px;
+  }
+  .checkout_products_item_remove_btn span {
+    color: #ff6295;
+    text-transform: capitalize;
+    font-size: 16px;
+    margin-top: 4px;
+  }
+  
+  .checkout_products_item_add {
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 120px;
+  }
+  
+  .cart_item_change {
+    display: flex;
+    align-items: center;
+    border-radius: 20px;
+  }
+  
+  .cart_item_change .cart_item_num {
+    width: 40px;
+    text-align: center;
+  }
+  
+  .cart_item_change span {
+    color: black;
+    font-size: 18px;
+  }
+  
+  .cart_item_change .m_btn {
+    color: black;
+    height: 20px;
+    width: 20px;
+    transition: 0.25s;
+    font-size: 30px;
+  }
+  
+  .cart_item_change .m_btn:hover {
+    cursor: pointer;
+    color: #ff6295;
+  }
+  
+  .checkout_products_item_total_price {
+    font-weight: 600;
+    font-size: 20px;
+    float: right;
+  }
+  .checkout_products_item_total_price::after {
+    content: "€";
+    margin-left: 4px;
+  }
+  
+  @media (max-width: 430.98px) {
+    .checkout_products_item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+    .checkout_products_item_image img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 10px;
+    }
+    .checkout_products_item_info {
+      height: auto;
+    }
+    .checkout_products_item_add {
+      height: auto;
+    }
+  }
+  

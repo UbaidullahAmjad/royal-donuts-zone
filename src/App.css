@@ -1,0 +1,178 @@
+:root {
+  --theme-secondary: #ef8aac;
+  --theme-deafult: #f73164;
+}
+
+.app_loader_wrapper {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loader-wrapper {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: #fff;
+  z-index: 11;
+  top: 0;
+}
+.loader-index-wrapper {
+}
+.loader-index {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  filter: url("#goo");
+}
+.loader-index:after {
+  content: "";
+  width: 4em;
+  height: 4em;
+  background: var(--theme-deafult);
+  border-radius: 50%;
+  position: absolute;
+  transform: scale(0.5);
+  animation: grow 2s cubic-bezier(0.14, 0.05, 0.55, 0.5) infinite alternate;
+}
+.loader-index span {
+  width: 2em;
+  height: 2em;
+  background: var(--theme-secondary);
+  border-radius: 50%;
+  margin-right: 2em;
+  position: relative;
+  transform: translateX(7em);
+  animation: move 4s ease-in-out infinite;
+}
+.loader-index span::before {
+  content: "";
+  width: 2em;
+  height: 2em;
+  background: var(--theme-deafult);
+  border-radius: 50%;
+  position: absolute;
+  left: 3em;
+  transform: translateX(0em);
+  animation: shrink 2s ease-in-out infinite;
+}
+.loader-index span::after {
+  content: "";
+  width: 2em;
+  height: 2em;
+  background: #f36292;
+  border-radius: 50%;
+  position: absolute;
+  right: 3em;
+  transform: translateX(0em);
+  animation: shrink 2s ease-in-out infinite;
+}
+
+@keyframes grow {
+  0% {
+    transform: scale(0.5);
+    background: #f36292;
+  }
+
+  50% {
+    transform: scale(1);
+    background: var(--theme-secondary);
+  }
+}
+
+@keyframes move {
+  0% {
+    transform: translateX(7em);
+  }
+
+  50% {
+    transform: translateX(-5em);
+  }
+}
+
+@keyframes shrink {
+  0% {
+    transform: translateX(0em);
+  }
+
+  50% {
+    transform: translateX(-1em);
+  }
+}
+
+/* --------------------------------------- */
+.scrollup_floating_btn {
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  background-color: #f73164;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* transition: 0.15 ease-in-out; */
+  transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+  border: 1px solid #fff;
+  /* opacity: 0.8; */
+  z-index: 100;
+  transform: translateY(150%);
+}
+.scrollup_floating_btn:hover {
+  cursor: pointer;
+}
+.scrollup_floating_btn .scrollup_icon {
+  color: #fff;
+  font-size: 2rem;
+}
+/* --------------------------------------- */
+
+.Toastify__progress-bar {
+  z-index: 999999 !important;
+}
+
+/* --------------- */
+
+.slick-slider .slick-dots li button {
+  width: 22px !important;
+  height: 6px !important;
+  background-color: #f493b3;
+  border-radius: 6px !important;
+  font-weight: 0px !important;
+  padding: 0 !important;
+}
+.slick-slider .slick-dots li button:before {
+  content: "" !important;
+  height: 6px !important;
+}
+.slick-slider .slick-dots li.slick-active button {
+  background-color: #fff;
+}
+/* --------------------- */
+
+.swal2-styled.swal2-confirm {
+  background-color: rgb(243, 98, 146) !important;
+  border-left-color: rgb(243, 98, 146) !important;
+  border-right-color: rgb(243, 98, 146) !important;
+}
+
+/* --------------------- */
+
+.Dashboard_TabList .Dashboard_Tab.Mui-selected {
+  color: rgb(243, 98, 146) !important;
+}
+.Dashboard_TabList .MuiTabs-indicator {
+  background-color: rgb(243, 98, 146) !important;
+}
+
+/* --------------------- */

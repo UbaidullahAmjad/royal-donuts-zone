@@ -1,0 +1,248 @@
+.storeCard {
+  border-radius: 14px;
+  background-color: #fff;
+  margin-bottom: 10px;
+  padding: 0;
+  border: none;
+  margin-bottom: 15px;
+}
+
+.cardItems {
+  width: 100%;
+  display: flex;
+  /* height: 190px; */
+  height: 220px;
+  /* height: 260px; */
+
+  background: transparent;
+  padding: 0%;
+  overflow: hidden;
+}
+
+.cardImgCon {
+  width: 34%;
+  overflow: hidden;
+}
+
+.detailCont {
+  width: 62%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 16px;
+  padding-right: 5px;
+  position: relative;
+  min-height: 100px;
+}
+
+.cardImgCon .leftCardImg {
+  width: 100%;
+  height: 100%;
+  min-height: 170px;
+  border-radius: 8px;
+}
+
+.titleRight .title {
+  font-family: Poppins-Black;
+  font-weight: 700;
+  /* font-size: 17px; */
+  font-size: 20px;
+  color: #ec5f7f;
+
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* number of lines to show */
+  line-clamp: 3;
+  -webkit-box-orient: vertical;
+}
+
+.descpCont_two {
+  margin-bottom: 50px;
+}
+
+.detailCont .descpCont {
+  display: flex;
+  justify-content: flex-start;
+  /* margin-top: 10px; */
+  padding: 0;
+  align-items: center;
+}
+
+.detailCont .descpCont .icon {
+  border-radius: 50%;
+  background-color: rgb(228, 228, 228);
+  border: none;
+  box-shadow: none;
+  outline: none;
+  margin-right: 10px;
+  padding: 7px;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detailCont .descpCont .icon:hover {
+  border: none;
+  outline: none;
+}
+.detailCont .descpCont .icon .addressIcon {
+  color: #ec5f7f;
+}
+
+.detailCont .descpCont .address {
+  font-family: Poppins;
+  font-size: 13px;
+  /* font-weight: 500; */
+  color: black;
+  line-height: 1;
+}
+
+.detailCont .descpCont .phone {
+  font-family: Poppins;
+  font-size: 13px;
+  /* font-weight: 500; */
+  color: black;
+}
+
+.detailCont .buttonsCont {
+  margin-top: 15px;
+}
+
+.buttonsCont .find_map {
+  font-family: JellyDonuts;
+  /* font-family: Poppins-Black; */
+  height: 38px !important;
+  background-color: rgb(228, 228, 228) !important;
+  font-size: 9px;
+  text-decoration: none !important;
+  outline: none !important;
+  border: none !important;
+  width: 100px;
+  height: 30px;
+  border-radius: 20px;
+  color: #ec5f7f;
+  margin-right: 2%;
+  line-height: 1.4;
+}
+
+@media (min-width: 1000px) and (max-width: 1200px) {
+  .buttonsCont .find_map {
+    font-size: 8px;
+  }
+}
+
+.buttonsCont .find_map:focus {
+  box-shadow: none !important;
+}
+.buttonsCont .find_map:hover {
+  color: black !important;
+}
+
+.buttonsCont .more_details {
+  font-family: JellyDonuts;
+  height: 38px !important ;
+  /* background-color: #ec5f7f !important; */
+  font-size: 9px;
+  text-decoration: none !important;
+  outline: none !important;
+  border: none !important;
+  /* padding: 5px; */
+  width: 100px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 20px;
+  color: white;
+  margin-right: 2%;
+  line-height: 1.4;
+}
+
+@media (min-width: 1024px) {
+  .titleRight .title {
+    display: block;
+    line-height: 1;
+    font-size: 16px;
+    margin-bottom: 6px;
+  }
+}
+
+@media (min-width: 767.98px) and (max-width: 991.98px) {
+  .cardItems {
+    height: auto;
+    /* --- */
+    width: 100%;
+    display: block;
+  }
+  .cardImgCon .leftCardImg {
+    height: 240px;
+  }
+  .detailCont {
+    min-height: 180px;
+    padding-left: 5px;
+    /* --- */
+    width: 100%;
+  }
+  .buttonsCont {
+    margin-left: 3px !important;
+    bottom: -5px !important;
+  }
+  .titleRight .title {
+    line-height: 1;
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  /* -- */
+  .cardImgCon {
+    width: 100%;
+    overflow: hidden;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .cardItems {
+    width: 100%;
+    /* display: block; */
+  }
+
+  .cardImgCon {
+    /* width: 100%; */
+    overflow: hidden;
+  }
+
+  .detailCont {
+    /* width: 100%; */
+  }
+}
+
+@media (max-width: 395px) {
+  .cardItems {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .cardImgCon {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .detailCont {
+    width: 100%;
+    min-height: 180px;
+  }
+  .cardImgCon .leftCardImg {
+    height: 220px;
+  }
+  .buttonsCont {
+    margin-left: 3px !important;
+    bottom: -5px !important;
+  }
+  .titleRight .title {
+    line-height: 1;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}

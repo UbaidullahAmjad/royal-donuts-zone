@@ -1,0 +1,128 @@
+.smallmap {
+  width: 100%;
+  height: 250px;
+  border-radius: 1rem;
+}
+
+.direction {
+  font-size: 14px;
+  margin-left: 20px;
+  /* margin-top: 0.5rem; */
+  font-weight: 500;
+  color: rgb(211, 73, 73);
+}
+
+.store_name {
+  font-family: Poppins-Bold;
+  font-weight: bold;
+  font-size: 15px;
+  position: absolute;
+  top: 30%;
+  left: 0;
+  transform: translateY(-50%);
+}
+.store_url {
+  font-family: Poppins;
+  font-size: 15px;
+  position: absolute;
+  top: 60%;
+  left: 0;
+  transform: translateY(-50%);
+}
+@media (max-width: 350px) {
+  .store_url {
+    top: 76%;
+  }
+}
+.store_right_side_input_fields label {
+  font-family: Poppins;
+  font-size: 15px;
+}
+.store_right_side_input_fields input {
+  font-family: Poppins;
+  font-size: 15px;
+}
+.store_right_side_input_fields button {
+  font-family: JellyDonuts;
+  font-size: 12px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.shop_schedule {
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
+}
+.shop_timing {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  margin-top: 10px;
+}
+.shop_timing_last {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+.shop_timing p {
+  font-family: Poppins;
+  font-size: 15px;
+}
+.shop_timing h5 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 17px;
+}
+.shop_schedule_icon {
+  background-color: #f36292;
+  border-radius: 50px;
+  padding: 10px 8.5px;
+  font-size: 16px;
+  font-weight: 500;
+  display: table;
+  vertical-align: middle;
+  display: inline;
+  color: #fff;
+}
+.shop_schedule_text {
+  font-weight: bold;
+  font-family: Poppins-Bold;
+  font-size: 20px;
+}
+.shop_timing_last p {
+  font-family: Poppins;
+  font-size: 15px;
+}
+.shop_timing_last h5 {
+  font-family: Poppins;
+  font-weight: bold;
+  font-size: 17px;
+}
+/* .btn-primary {
+  background: #f36292 !important;
+  border-color: #f36292 !important;
+}
+.btn-primary:hover {
+  background: #db5883 !important;
+  border-color: #db5883 !important;
+} */
+
+.logoImg {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+}
+@media (max-width: 1415px) and (min-width: 1000px) {
+  .store_name_div {
+    width: 62% !important;
+  }
+  .store_img_div {
+    width: 38% !important;
+  }
+}
+@media (max-width: 330px) {
+  .logoImg {
+    width: 60px;
+    height: 60px;
+  }
+}

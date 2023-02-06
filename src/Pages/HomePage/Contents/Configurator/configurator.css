@@ -1,0 +1,352 @@
+.custom-shape-divider-top-1642772984 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1642772984 svg {
+  position: relative;
+  display: block;
+  width: calc(139% + 1.3px);
+  height: 152px;
+}
+
+.custom-shape-divider-top-1642772984 .shape-fill {
+  fill: #ffffff;
+}
+
+#config_img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  position: absolute;
+}
+#config {
+  font-family: JellyDonuts;
+  margin: 0;
+  font-size: 2.5rem;
+  margin-left: 45%;
+  position: relative;
+  color: #f36292;
+  width: 100%;
+}
+#config:nth-child(1) {
+  margin-bottom: 20px;
+}
+#config_text {
+  position: relative;
+  margin-top: 19%;
+}
+#config_image1 {
+  position: absolute;
+  margin-left: 6%;
+  margin-top: 7%;
+  display: block;
+  max-width: 100%;
+  max-height: 19rem;
+}
+#config_image2 {
+  position: absolute;
+  margin-left: 16%;
+  margin-top: 18%;
+  display: block;
+  height: 19rem;
+}
+
+#config_left_side {
+  margin-left: -9pc;
+  margin-top: 10%;
+}
+
+#config_right_side {
+  margin-top: 80%;
+  position: absolute;
+  margin-left: 55%;
+}
+#config_right_side_circle {
+  margin-top: 18rem;
+  margin-left: 9rem;
+}
+
+#config_btn {
+  font-family: JellyDonuts;
+  display: block;
+  margin: auto;
+  font-size: 18px;
+  /* margin-left: 10.5pc; */
+  margin-left: 26%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+@media screen and (min-width: 1920px) {
+  #config {
+    font-family: JellyDonuts;
+    margin: 0;
+    font-size: 3.5rem;
+    /* margin-left: 35%; */
+    position: relative;
+    color: #f36292;
+  }
+  #config_text {
+    position: relative;
+    margin-top: 19%;
+  }
+  #config_image1 {
+    position: absolute;
+    margin-left: 7%;
+    margin-top: 7%;
+    display: block;
+    max-width: 100%;
+    max-height: 20rem;
+  }
+  #config_image2 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 16%;
+    display: block;
+    height: 20rem;
+  }
+
+  /* #config_left_side {
+    width: 13rem;
+    margin-left: -7pc;
+    margin-top: 10%;
+  } */
+
+  #config_btn {
+    font-size: 20px;
+    /* margin-left: 28%; */
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  #config_right_side {
+    margin-top: 15rem;
+    position: absolute;
+    margin-left: 53%;
+    width: 19rem;
+  }
+  #config_right_side_circle {
+    margin-top: 21rem;
+    margin-left: 12rem;
+    width: 16rem;
+  }
+}
+@media screen and (min-width: 1440px) {
+  #config {
+    margin-left: 20rem;
+  }
+  #config_btn {
+    margin-left: 12rem;
+  }
+}
+@media screen and (max-width: 1439.98px) {
+  #config {
+    margin-left: 14rem;
+  }
+  #config_btn {
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #config {
+    font-family: JellyDonuts;
+    margin: 0;
+    font-size: 2rem;
+    margin-left: 33%;
+    position: relative;
+    color: #f36292;
+  }
+  #config_text {
+    position: relative;
+    margin-top: 19%;
+  }
+  #config_image1 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: block;
+    max-width: 100%;
+    max-height: 16rem;
+  }
+  #config_image2 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 18%;
+    display: block;
+    height: 16rem;
+  }
+
+  #config_left_side {
+    width: 13rem;
+    margin-left: -9pc;
+    margin-top: 10%;
+  }
+
+  #config_btn {
+    font-size: 16px;
+    display: block;
+    margin: auto auto auto 8pc;
+  }
+
+  #config_right_side {
+    margin-top: 11rem;
+    position: absolute;
+    margin-left: 53%;
+    width: 10rem;
+  }
+  #config_right_side_circle {
+    margin-top: 14rem;
+    margin-left: 6rem;
+    width: 10rem;
+  }
+}
+
+@media screen and (max-width: 1064px) {
+  #config_btn {
+    margin-left: 22%;
+    font-size: 14px;
+  }
+  #config {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  #config {
+    font-size: 1.85rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  #config {
+    font-family: JellyDonuts;
+    margin: 0;
+    font-size: 1.7rem;
+    margin-left: 35%;
+    position: relative;
+    color: #f36292;
+  }
+  #config_text {
+    position: relative;
+    margin-top: 19%;
+  }
+  #config_image1 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: block;
+    max-width: 100%;
+    max-height: 12rem;
+  }
+  #config_image2 {
+    position: absolute;
+    margin-left: 15%;
+    margin-top: 21%;
+    display: block;
+    height: 12rem;
+  }
+
+  #config_left_side {
+    width: 10rem;
+    margin-left: -5.5pc;
+    margin-top: 10%;
+  }
+
+  #config_btn {
+    display: block;
+    margin: auto auto auto 4pc;
+    font-size: 12px;
+    margin-left: 16%;
+  }
+
+  #config_right_side {
+    margin-top: 8rem;
+    position: absolute;
+    margin-left: 60%;
+    width: 8rem;
+  }
+  #config_right_side_circle {
+    margin-top: 10.5rem;
+    margin-left: 5rem;
+    width: 8rem;
+  }
+}
+
+/* @media screen and (max-width: 800px) {
+  #config_btn {
+    margin-left: 16%;
+  }
+} */
+
+@media screen and (max-width: 511px) {
+  #config_btn {
+    line-height: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+}
+
+@media screen and (max-width: 426px) {
+  #config {
+    font-family: JellyDonuts;
+    margin: 0;
+    font-size: 7.5vw;
+    margin-left: 35%;
+    position: relative;
+    color: #f36292;
+  }
+  #config_text {
+    position: relative;
+    margin-top: 19%;
+  }
+  #config_image1 {
+    position: absolute;
+    margin-left: 5%;
+    margin-top: 7%;
+    display: block;
+    max-width: 100%;
+    max-height: 23vw;
+  }
+  #config_image2 {
+    position: absolute;
+    margin-left: 14%;
+    margin-top: 20%;
+    display: block;
+    height: 23vw;
+  }
+
+  #config_left_side {
+    width: 6rem;
+    /* margin-left: -17%; */
+    margin-left: -32%;
+    margin-top: 10%;
+  }
+
+  #config_btn {
+    margin-left: 16%;
+    font-size: 14px;
+    display: block;
+    /* margin: auto; */
+  }
+
+  #config_right_side {
+    margin-top: 4rem;
+    position: absolute;
+    margin-left: 41%;
+    width: 22vw;
+  }
+  #config_right_side_circle {
+    margin-top: 5.6rem;
+    margin-left: 2rem;
+    width: 22vw;
+  }
+  .custom-shape-divider-top-1642772984 svg {
+    height: 63px;
+  }
+}

@@ -1,0 +1,389 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+.leftColumn {
+  margin-bottom: 80px;
+  display: flex;
+}
+.leftColumnMain {
+  display: flex;
+  align-items: center;
+}
+.search_dropdown {
+  display: flex;
+  width: 55vw;
+  justify-content: center;
+  align-items: center;
+}
+.searchBar {
+  height: 40px !important;
+  display: flex !important;
+  margin-left: 15px;
+  justify-content: center;
+  align-items: center;
+  width: 35vw !important;
+  margin-top: 50px;
+  background-color: #fff;
+  border-radius: 25px !important;
+  color: black !important;
+  position: relative;
+}
+.radius_input {
+  font-family: Poppins !important;
+  margin-top: 50px !important;
+  font-size: 15px !important;
+  margin-left: 2vw !important;
+  border-radius: 35px !important;
+  background: #ffff !important;
+  color: black !important;
+  height: 40px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  border: 1px solid #ced4da !important;
+}
+.radius_input:focus {
+  box-shadow: none !important;
+}
+.radius_title {
+  font-family: Poppins;
+  margin-top: 50px;
+  margin-left: 3%;
+  font-size: 15px;
+  font-weight: bold;
+}
+.results_title {
+  font-family: Poppins;
+  margin-top: 50px;
+  font-size: 15px;
+  margin-left: 6%;
+  font-weight: bold;
+}
+.radius_li_div_result {
+  min-width: 90px !important;
+  width: 90px !important;
+}
+.radius_li_div {
+  min-width: 115px !important;
+  width: 115px !important;
+}
+.radius_value {
+  padding: 5px;
+  font-weight: 600;
+  font-family: Poppins;
+  font-size: 15px;
+  cursor: pointer;
+}
+.radius_value:hover {
+  background-color: #ec5f7f;
+  color: white;
+}
+.radius_search_button {
+  font-family: JellyDonuts;
+  font-size: 13px;
+  margin-top: 50px;
+  height: 40px;
+  margin-left: 3vw;
+  color: white;
+  background: #ec5f7f !important;
+  padding: 7px;
+  width: 99px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  font-weight: bold;
+}
+.inputSearch {
+  font-family: Poppins;
+  font-size: 15px;
+  border: none;
+  width: 90%;
+  background-color: transparent;
+}
+.inputSearch:focus {
+  outline: none;
+}
+.searchIcon {
+  font-size: 25px;
+  color: #ec5f7f;
+  cursor: pointer;
+}
+.storelistMain {
+  background-color: #f8f8f8;
+  padding: 0 5rem;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+.storeCardsMain_parrent {
+  background-color: #f8f8f8;
+  /* padding-right: 4px; */
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 20px;
+  padding-bottom: 0px;
+}
+.storeCardsMain {
+  /* padding: 30px 10px; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  height: 700px;
+}
+
+.storeCardsMain::-webkit-scrollbar {
+  width: 6px;
+  height: 5px;
+}
+.storeCardsMain::-webkit-scrollbar-track {
+  background: pink;
+}
+.storeCardsMain::-webkit-scrollbar-thumb {
+  background: rgb(244, 66, 96);
+  border-radius: 10px;
+}
+.storeCardsMain::-webkit-scrollbar-thumb:hover {
+  background: rgb(243, 35, 69);
+}
+
+.mapsMain {
+  position: relative;
+  min-height: 500px;
+  margin-top: 20px;
+}
+.map {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.suggestions_div {
+  position: absolute;
+  background: #ffff;
+  width: 31vw;
+  top: 117%;
+  z-index: 1;
+  box-shadow: rgb(0 0 0 / 35%) 0px 5px 15px;
+  border-radius: 5px;
+}
+.suggest_item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: #ffff;
+  min-height: 50px;
+  cursor: pointer;
+  padding-left: 5px;
+  border-radius: 5px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+}
+.suggest_item:not(:last-child) {
+  border-bottom: 1px solid rgb(230, 227, 227);
+}
+.suggest_item strong {
+  font-family: Poppins-Bold;
+  font-size: 15px;
+}
+.suggest_item small {
+  font-family: Poppins;
+  font-size: 14px;
+}
+.suggest_item:hover {
+  background-color: #e7e7e7e7;
+}
+
+@media (max-width: 1024px) {
+  .searchBar {
+    height: 50px;
+  }
+}
+
+@media (max-width: 868px) {
+  .storelistMain {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  /* .searchBar {
+    width: 98.5% !important;
+  } */
+}
+
+@media (max-width: 767px) {
+  .storelistMain {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .store_left_coloumn_row {
+    flex-direction: column-reverse;
+  }
+  .mapsMain {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .storeCardsMain {
+    overflow-y: initial;
+    height: auto;
+  }
+}
+
+@media (max-width: 426px) {
+  .store_left_coloumn_row {
+    flex-direction: column-reverse;
+    padding: 0;
+  }
+  .mapsMain {
+    margin-bottom: 20px;
+  }
+  /* .leftColumn{
+    flex-direction: column;
+    padding: 0;
+  } */
+  .storeCardsMain {
+    overflow-y: initial;
+    height: auto;
+  }
+}
+@media (min-width: 701px) and (max-width: 1023px) {
+  .mapsMain {
+    margin-bottom: 20px;
+  }
+  .radius_title {
+    font-size: 12px;
+  }
+  .radius_input {
+    font-size: 12px !important;
+    width: 80px;
+    height: 35px !important;
+  }
+  .results_title {
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .radius_search_button {
+    font-size: 9px;
+    height: 35px !important;
+    width: 86px;
+  }
+  .radius_value {
+    font-size: 14px;
+  }
+  .searchBar {
+    height: 40px !important;
+    margin-left: 20px !important;
+  }
+}
+
+@media (min-width: 425px) and (max-width: 700px) {
+  .storeCardsMain_parrent{
+    max-height: 200vh;
+    overflow-y: scroll;
+  }
+  .leftColumn {
+    flex-direction: column-reverse;
+    padding: 0;
+    width: 100%;
+  }
+  .mapsMain {
+    margin-bottom: 20px;
+  }
+  .leftColumnMain {
+    flex-direction: column;
+  }
+  .search_dropdown {
+    width: 100%;
+    justify-content: space-around;
+  }
+  .radius_title {
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  .radius_input {
+    margin-top: 20px !important;
+    font-size: 12px !important;
+    width: 80px;
+    height: 35px !important;
+  }
+  .results_title {
+    margin-top: 20px;
+    font-size: 12px;
+    margin-left: 10px;
+  }
+  .radius_search_button {
+    margin-top: 20px !important;
+    font-size: 9px;
+    height: 35px !important;
+    width: 86px;
+  }
+  .radius_value {
+    font-size: 14px;
+  }
+  .searchBar {
+    height: 40px !important;
+    margin-left: 0px !important;
+  }
+  .suggestions_div {
+    width: 88vw;
+  }
+}
+
+@media (max-width: 435px) {
+  .storeCardsMain_parrent{
+    max-height: 200vh;
+    overflow-y: scroll;
+  }
+  .leftColumn {
+    flex-direction: column-reverse;
+    padding: 0;
+    width: 100%;
+  }
+  .mapsMain {
+    margin-bottom: 20px;
+  }
+  .leftColumnMain {
+    flex-direction: column;
+  }
+  .search_dropdown {
+    width: 100%;
+  }
+  .radius_title {
+    margin-top: 20px;
+    font-size: 10px;
+  }
+  .radius_input {
+    margin-top: 20px !important;
+    font-size: 10px !important;
+    height: 25px !important;
+  }
+  .results_title {
+    margin-top: 20px;
+    font-size: 10px;
+    margin-left: 10px;
+  }
+  .radius_search_button {
+    margin-top: 20px !important;
+    font-size: 8px;
+    height: 25px !important;
+    width: 50px;
+  }
+  .radius_value {
+    font-size: 14px;
+  }
+  .searchBar {
+    height: 40px !important;
+    margin-left: 0px !important;
+    width: 96vw !important;
+  }
+  .suggestions_div {
+    width: 88vw;
+  }
+}
